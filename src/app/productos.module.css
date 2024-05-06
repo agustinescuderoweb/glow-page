@@ -55,6 +55,17 @@
     border: 1px solid #000; /* Borde sólido de 1px */
     border-radius: 5px; /* Bordes redondeados */
   }
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 400px;
+}
   
 
 @media screen and (max-width: 550px) {
