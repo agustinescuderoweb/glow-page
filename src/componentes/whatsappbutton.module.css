@@ -1,0 +1,27 @@
+.boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    width: 120px;
+    padding: 10px;
+    margin: 50px;
+    color: white;
+    background-color: 	#EABE3F;
+    border-radius: 10px;
+    border: 1 solid black;
+    box-shadow: 0px 0px 5px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.boton:hover {
+    box-shadow: 0px 0px 15px black;
+}
+
+.iconos{
+    width: 30px;
+    margin: 10px;
+}
+

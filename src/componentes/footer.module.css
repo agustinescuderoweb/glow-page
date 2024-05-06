@@ -1,0 +1,98 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: black;
+    box-shadow: 0px 0px 2px 1px black;
+    font-family: "DM Sans", sans-serif, bold;
+
+    
+}
+
+.iconos {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 0px 20px;
+    color: white;
+}
+
+
+.siguenos {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 150px;
+    color: white;
+    margin-top: 30px;
+}
+
+.pagos h2 {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.envios h2 {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.derechos {
+    color: white;
+    font-size: 8px;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+    .siguenos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pagos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .envios {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .envios h2 {
+        margin: 0px;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+.derechos {
+    margin-top: 50px;
+}

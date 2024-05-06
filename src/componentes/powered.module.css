@@ -1,0 +1,12 @@
+.powered {
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 10px;
+    font-family: "DM Sans", sans-serif, bold;
+}
+
+@media screen and (max-width: 550px) {
+    .powered {
+        font-size: 7px;
+    }
+}

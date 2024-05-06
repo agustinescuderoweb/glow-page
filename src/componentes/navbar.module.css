@@ -1,0 +1,142 @@
+/* Estilos generales para el navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+}
+
+/* Estilos para el logo */
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 280px; /* Tamaño del logo */
+    height: 150px;
+}
+
+/* Estilos para el ícono de hamburguesa */
+.menuToggle {
+    cursor: pointer;
+    display: none; /* Ocultar por defecto en pantallas grandes */
+}
+
+/* Barras del ícono de hamburguesa */
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Estilos para el menú de navegación */
+
+
+.navList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+    font-family: "DM Sans", sans-serif, bold;
+}
+
+
+.navList li {
+    margin-left: 20px;
+}
+
+.navList li:first-child {
+    margin-left: 0;
+}
+
+.navList li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.navList li:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+/* Media query para pantallas pequeñas (menos de 550px) */
+@media screen and (max-width: 550px) {
+    /* Mostrar el ícono de hamburguesa y centrar los elementos */
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0px 0px 1px 1px black;
+        border-radius: 2px;
+    }
+
+    .logos {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .menuToggle {
+        display: flex;
+    }
+
+    /* Mostrar el menú como una columna centrada */
+    .navList {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        position: absolute;
+        top: -30px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 200px 0px;
+        margin: 30px 0px;
+        z-index: 0;
+    }
+
+    /* Estilos para el ícono de cierre (cruz) */
+    .closeIcon {
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        color: white;
+        z-index: 1
+    }
+
+    /* Mostrar el menú cuando está abierto (.active) */
+    .navList.active {
+        display: flex;
+    }
+
+    /* Estilos para los elementos del menú en pantallas pequeñas */
+    .navList li {
+        margin: 30px 0;
+    }
+}

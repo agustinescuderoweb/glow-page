@@ -1,0 +1,95 @@
+
+[
+    { 
+        "modelo": "Campera 1",
+        "colores": ["#470F1C", "#937A66", "#C58865", "#1B1717"]
+
+     },
+     { 
+        "modelo": "Campera 2",
+        "colores": ["#000000", "#D4C8AD", "#7D77B9"]
+
+     },
+     { 
+        "modelo": "Campera 3",
+        "colores": ["#FFFFFF", "#419BC8", "#D48F0F", "#000000"]
+
+     },
+     { 
+        "modelo": "Campera 4",
+        "colores": ["#FFFDFD", "#67767E"]
+
+     },
+     { 
+        "modelo": "Campera 5",
+        "colores": ["#C6BDB2", "#E64A31", "#B6BEC7", "#000000", "#E3C7BA"]
+
+     },
+     { 
+        "modelo": "Campera 6",
+        "colores": ["#863359", "#000000", "#EA7B9D", "#89C1E4", "#CBCA33", "#4980B7"]
+
+     },
+     { 
+        "modelo": "Campera 7",
+        "colores": ["#C0B99C", "#CE8BBB", "#000000", "#EC7754", "#B6BEC7",]
+
+     },
+     { 
+        "modelo": "Campera 8",
+        "colores": ["#000000"]
+
+     },
+     { 
+        "modelo": "Campera 9",
+        "colores": ["#FFFFFF", "#E4B0B4", "#839058", "#000000", "#741BC3", "#A58344", "#E56346" ]
+
+     },
+     { 
+        "modelo": "Campera 10",
+        "colores": ["#000000", "#181D28", "#BAB395"]
+
+     },
+     { 
+        "modelo": "Campera 11",
+        "colores": ["#7D6C3D", "#1C1D21"]
+
+     },
+     { 
+        "modelo": "Campera 12",
+        "colores": ["#ACA6A3", "#C8ACAB"]
+
+     },
+     { 
+        "modelo": "Campera 13",
+        "colores": ["#353D53", "#7A7870", "#EDBC7E", "#67767E", "#E56346", "#50798F"]
+
+     },
+     { 
+        "modelo": "Campera 14",
+        "colores": ["#FFFDFD", "#484B36", "#000000"]
+
+     },
+     { 
+        "modelo": "Campera 15",
+        "colores": ["#FFFDFD", "#000000"]
+
+     },
+     { 
+        "modelo": "Campera 16",
+        "colores": ["#FFFFFF", "#000000"]
+
+     },
+     { 
+        "modelo": "Campera 17",
+        "colores": [ "#F85220", "#F9D40A", "#512FB4"]
+
+     },
+     { 
+        "modelo": "Campera 18",
+        "colores": ["#000000"]
+
+     }
+    
+  ]
+  

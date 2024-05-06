@@ -1,0 +1,70 @@
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif, bold;
+}
+
+
+.cajaimagen,
+.datos {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    flex: 0 0 50%; 
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+
+.imagenes {
+    width: 100%;
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+
+.precio {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.precio p {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.colorSquare {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #000; /* Borde sólido de 1px */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+
+@media screen and (max-width: 550px) {
+    .productos {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .datos {
+        font-size: 15px;
+    }
+
+}
