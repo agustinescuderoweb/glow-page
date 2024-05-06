@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <Layout>
       {loading ? (
-        <p>Loading...</p>
+        <p className={styles.loading}>Loading...</p>
       ) : (
         <>
         <head>
