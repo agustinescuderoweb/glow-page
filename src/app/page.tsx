@@ -8,6 +8,7 @@ import Layout from '../app/layout';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '@/app/firebaseConfig';
 import styles from '../app/productos.module.css';
+import WhatsApp from '@/componentes/WhatsApp';
 
 
 
@@ -60,6 +61,7 @@ export default function Home() {
           <title>Glow-Tienda</title>
         </head>
           <Navbar />
+           <WhatsApp />
           <div className={styles.productContainer}>
             {userData.map((producto) => (
               <div key={producto.id} className={styles.productos}>
