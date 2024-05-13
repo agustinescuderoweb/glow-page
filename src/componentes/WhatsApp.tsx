@@ -5,7 +5,7 @@ import styles from '../componentes/whatsApp.module.css';
 
 const WhatsApp = () => {
     const phoneNumber = '+5492616005809';
-    const message = 'Hola, estoy interesado en un modelo.';
+    const message = 'Hola, estoy interesado en saber sobre..';
   
     const handleClick = () => {
       window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
