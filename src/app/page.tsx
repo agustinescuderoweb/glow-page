@@ -77,7 +77,6 @@ export default function Home() {
                       <div key={index} className={styles.colorSquare} style={{ backgroundColor: color }}></div>
                     ))}
                   </div>
-                  <WhatsAppButton />
                 </div>
               </div>
             ))}
