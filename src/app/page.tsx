@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <Layout>
       {loading ? (
-        <p className={styles.loading}>Loading...</p>
+        <p className={styles.loading}></p>
       ) : (
         <>
         <head>
@@ -70,8 +70,8 @@ export default function Home() {
                 </div>
                 <div className={styles.datos}>
                   <p className={styles.nombre}>{producto.NOMBRE}</p>
-                  <h1 className={styles.precio}><p>{producto.PRECIO}</p></h1>
-                  <p className={styles.talles}>{producto.TALLES}</p>
+               {/*<h1 className={styles.precio}><p>{producto.PRECIO}</p></h1> */}
+             {/*  <p className={styles.talles}>{producto.TALLES}</p> */}
                   <div className={styles.colores}>
                     {producto.COLORES.map((color, index) => (
                       <div key={index} className={styles.colorSquare} style={{ backgroundColor: color }}></div>

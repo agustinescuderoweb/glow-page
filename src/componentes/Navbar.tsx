@@ -36,13 +36,13 @@ const NavMenu = () => {
             <div className={styles.lista} id='camperas'>
             <ul className={`${styles.navList} ${isOpen ? styles.active : ''}`}>
                 <li>
-                    <Link href="https://drive.google.com/file/d/12A0FGIPCjzgsffc99f3S4zlECcFmewq1/view?usp=sharing" onClick={closeMenu}>
-                        Catálogo
+                    <Link href="#contactos" onClick={closeMenu}>
+                        Medios de Pago
                     </Link>
                 </li>
                 <li>
                     <Link href="#camperas" onClick={closeMenu}>
-                        Glow Camperas
+                        Glow Zapatillas
                     </Link>
                 </li>
                 <li>
